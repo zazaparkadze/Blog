@@ -1,0 +1,2 @@
+# Blog
+new Blog

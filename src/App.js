@@ -12,7 +12,7 @@ import { Routes, Route, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 function App() {
-  const API_URI = "http://localhost:3500/posts";
+  const API_URI = "https://jsonplaceholder.typicode.com/posts";
   const [posts, setPosts] = useState([]);
 
   useEffect(() => {
